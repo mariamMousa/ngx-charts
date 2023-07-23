@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column; /* stack the child elements vertically */
+    align-items: center; /* center vertically */
+    height: 100vh; /* set height of container to full viewport height */
+    margin-top: 100px; /* reduce the top margin to move the container up */
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px; /* increase the font size to 48 pixels */
+    margin-top: 20px; /* reduce the top margin to move the element up */
+    margin-bottom: 0; /* remove the bottom margin to reduce the space below the element */
+}
